@@ -1,1 +1,3 @@
-# swa-quantumforge
+Реализация заданий по спринту 7.
+
+[Задание 1](Project_template.md)
