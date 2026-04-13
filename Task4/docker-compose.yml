@@ -1,0 +1,23 @@
+services:
+  rag-service:
+    build: .
+    container_name: rag_service
+
+    ports:
+      - "8000:8000"
+
+    volumes:
+      - ../Task3/chroma_db:/app/chroma_db
+      - ./models_cache:/app/models_cache
+
+    environment:
+      - TRANSFORMERS_CACHE=/app/models_cache
+      - HF_HOME=/app/models_cache
+      - HF_HUB_DISABLE_XET=1
+
+    restart: unless-stopped
+
+    deploy:
+      resources:
+        limits:
+          memory: 4g
