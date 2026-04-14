@@ -27,7 +27,8 @@ class QwenLLM:
             outputs = self.model.generate(
                 **inputs,
                 max_new_tokens=max_tokens,
-                temperature=0.7,
+                temperature=0.15,
+                repetition_penalty=1.15,
                 do_sample=True,
                 pad_token_id=self.tokenizer.eos_token_id
             )
