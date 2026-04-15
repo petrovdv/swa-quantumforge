@@ -1,27 +1,19 @@
 def get_few_shot_examples() -> str:
     return """
-    ### Example 1
-    Question: What was the Dr. Emmett Green's most successful invention?
+### Example 1
+CONTEXT:
+Biff won a bet on his 21st birthday. The newspaper is dated March 28, 1958 and reports March 27 events.
 
-    Answer:
-    Let's think step by step.
-    1. A plutonium-powered time machine built on a DeLorean DMC-12 sports car 
-    that had to reach 88 miles per hour in order to time travel.
-    2. The actual construction of the components for the finished machine took Frog 30 years 
-    and most of his family fortune to complete.
-    3. The most successful invention was the DeLorean Time Machine.
+Question: When is Biff's birthday?
 
-    Final answer: The Dr. Emmett Green's most successful invention was the DeLorean Time Machine.
+FINAL ANSWER: March 27, 1937
 
-    ### Example 2
-    Question: What is the name of Hardy's wife?
 
-    Answer:
-    Let's think step by step.
-    1. Jennifer was born in 1967 in Chill valley, California. She was Hardy's girlfriend, 
-    having met him at Chill valley High School.
-    2. Sometime before 1985, Jennifer met Hardy and started dating him, 
-    eventually falling passionately in love with him.
-    3. Jennifer Jane Harper is the wife of Hardy Drspy.
-    Final answer: Jennifer Jane Harper is the wife of Hardy Drspy.
+### Example 2
+CONTEXT:
+The movie was released in 1985. It has two sequels in 1989 and 1990.
+
+Question: How many films are there?
+
+FINAL ANSWER: 3
 """

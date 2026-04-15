@@ -13,6 +13,9 @@ COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Download spaCy model (нужно для PII scanner)
+RUN python -m spacy download en_core_web_lg
+
 COPY rag_service .
 
 RUN mkdir -p /app/chroma_db

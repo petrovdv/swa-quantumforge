@@ -5,3 +5,4 @@ accelerate
 torch
 chromadb==1.5.5
 sentence-transformers==5.3.0
+llm-guard>=0.3.0

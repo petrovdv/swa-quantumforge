@@ -1,9 +1,11 @@
 import os
 
+from fastapi import Path
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from sentence_transformers import SentenceTransformer
 import chromadb
+import logging
 
 # --- КОНФИГУРАЦИЯ ---
 INPUT_FOLDER = "../Task2/knowledge_base/"
