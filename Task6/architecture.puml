@@ -1,0 +1,16 @@
+@startuml RAG_DataFlow
+title Поток данных: Обновление RAG-индекса
+
+actor "👤 Пользователь" as User
+rectangle "⏱️ Cron\n(0 */12 * * *)" as Cron
+rectangle "📜 update_index.py" as Script
+folder "📂 new_base/" as Docs
+database "🗄️ ChromaDB\nCollection" as Chroma
+
+User --> Cron : Настраивает запуск
+Cron --> Script : Запускает по расписанию
+Script --> Docs : Сканирует *.txt файлы
+Docs --> Script : Новые/изменённые файлы
+Script --> Chroma : Сохраняет чанки
+
+@enduml
