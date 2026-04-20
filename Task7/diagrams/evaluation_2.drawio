@@ -1,0 +1,91 @@
+<mxfile host="Electron">
+  <diagram name="Страница-1" id="uTwfVY9bZf6Dccfgfx41">
+    <mxGraphModel dx="1336" dy="1031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3KyIYY-CHtP3P37-Q5r4-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="650" width="20" x="70" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3KyIYY-CHtP3P37-Q5r4-2" parent="3KyIYY-CHtP3P37-Q5r4-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="520" width="10" x="5" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3KyIYY-CHtP3P37-Q5r4-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Скрипт проверки&lt;div&gt;(RAGAS)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="650" width="100" x="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3KyIYY-CHtP3P37-Q5r4-16" parent="3KyIYY-CHtP3P37-Q5r4-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="520" width="10" x="45" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3KyIYY-CHtP3P37-Q5r4-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Оцениваемый&lt;div&gt;RAG Api&lt;/div&gt;" vertex="1">
+          <mxGeometry height="650" width="100" x="330" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3KyIYY-CHtP3P37-Q5r4-21" parent="3KyIYY-CHtP3P37-Q5r4-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="45" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3KyIYY-CHtP3P37-Q5r4-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Аналитик по качеству" vertex="1">
+          <mxGeometry height="30" width="90" x="35" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3KyIYY-CHtP3P37-Q5r4-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Локальная embeddings модель" vertex="1">
+          <mxGeometry height="650" width="120" x="500" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3KyIYY-CHtP3P37-Q5r4-24" parent="3KyIYY-CHtP3P37-Q5r4-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="55" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="3KyIYY-CHtP3P37-Q5r4-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Расширенный сценарий проверки (LLM в оценке участвует, не реализован из-за нехватки ресурсов)" vertex="1">
+          <mxGeometry height="30" width="640" x="110" as="geometry" />
+        </mxCell>
+        <mxCell id="3KyIYY-CHtP3P37-Q5r4-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;запускает с набором golden set&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="197" as="sourcePoint" />
+            <mxPoint x="205" y="197.00000000000125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3KyIYY-CHtP3P37-Q5r4-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="&lt;span style=&quot;font-size: 7px;&quot;&gt;сравнивает сходство векторов&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;вопроса и ответа,&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;эталонного ответа и ответа Апи,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;даёт оценку этим данным,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;проверяет ответ&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;на соответсвие контексту&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="613" />
+            </Array>
+            <mxPoint x="205" y="613" as="sourcePoint" />
+            <mxPoint x="84.99999999999994" y="613" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3KyIYY-CHtP3P37-Q5r4-19" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Локальная LLM модель" vertex="1">
+          <mxGeometry height="650" width="120" x="680" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3KyIYY-CHtP3P37-Q5r4-27" parent="3KyIYY-CHtP3P37-Q5r4-19" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="55" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="3KyIYY-CHtP3P37-Q5r4-22" edge="1" parent="1" source="3KyIYY-CHtP3P37-Q5r4-16" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="3KyIYY-CHtP3P37-Q5r4-21" value="передает вопросы в API">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="215" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3KyIYY-CHtP3P37-Q5r4-23" edge="1" parent="1" source="3KyIYY-CHtP3P37-Q5r4-21" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="3KyIYY-CHtP3P37-Q5r4-16" value="возвращает ответ&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3KyIYY-CHtP3P37-Q5r4-25" edge="1" parent="1" source="3KyIYY-CHtP3P37-Q5r4-16" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="3KyIYY-CHtP3P37-Q5r4-24" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;преобразование вопроса, эталонного ответа и ответа системы в вектора&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="315" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3KyIYY-CHtP3P37-Q5r4-26" edge="1" parent="1" source="3KyIYY-CHtP3P37-Q5r4-24" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="3KyIYY-CHtP3P37-Q5r4-16" value="результат преобразований">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3KyIYY-CHtP3P37-Q5r4-28" edge="1" parent="1" source="3KyIYY-CHtP3P37-Q5r4-16" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="3KyIYY-CHtP3P37-Q5r4-27" value="передает чанки контекста для проверки ответа">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="465" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3KyIYY-CHtP3P37-Q5r4-29" edge="1" parent="1" source="3KyIYY-CHtP3P37-Q5r4-27" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="3KyIYY-CHtP3P37-Q5r4-16" value="возвращает результат, который определяет метрику&amp;nbsp;faithfulness">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
