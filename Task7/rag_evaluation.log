@@ -1,0 +1,46 @@
+2026-04-16 16:59:15,194 | INFO | Загружено 10 вопросов
+2026-04-16 16:59:15,232 | INFO | → Were Hardy Drspy and Jennifer Harper caught arriving late?
+2026-04-16 17:00:09,022 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:00:09,306 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:00:09,349 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:00:09,350 | INFO | → What is Volga Truck?
+2026-04-16 17:01:22,053 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:01:22,570 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:01:22,613 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:01:22,614 | INFO | → When is Biff Shannon's birthday?
+2026-04-16 17:02:49,993 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:02:50,699 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:02:50,735 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:02:50,736 | INFO | → When Hardy was born?
+2026-04-16 17:03:20,977 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:03:21,081 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:03:21,118 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:03:21,119 | INFO | → What is Dr. Emmett Green castle?
+2026-04-16 17:03:21,418 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:03:21,450 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:03:21,486 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:03:21,487 | INFO | → Do you know anything about Chill Valley?
+2026-04-16 17:04:00,966 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:04:01,321 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:04:01,381 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:04:01,382 | INFO | → Who is George Drspy?
+2026-04-16 17:05:26,298 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:05:26,940 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:05:27,006 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:05:27,007 | INFO | → Who is Jennifer?
+2026-04-16 17:07:05,032 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:07:05,706 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:07:05,761 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:07:05,762 | INFO | → Do you know anything about root password?
+2026-04-16 17:07:06,249 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:07:06,280 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:07:06,310 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:07:06,311 | INFO | → What is Locomotive 131?
+2026-04-16 17:08:00,913 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:08:01,250 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:08:01,340 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-04-16 17:08:01,341 | INFO | ============================================================
+2026-04-16 17:08:01,341 | INFO | AVG relevancy   : 0.5820
+2026-04-16 17:08:01,341 | INFO | AVG correctness : 0.7065
+2026-04-16 17:08:01,342 | INFO | Saved to ragas_results.json
+2026-04-16 17:08:01,342 | INFO | ============================================================

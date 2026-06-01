@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Were Hardy Drspy and Jennifer Harper caught arriving late?",
+    "answer_relevancy": 0.6626876968068907,
+    "answer_correctness": 0.6927026397207507
+  },
+  {
+    "question": "What is Volga Truck?",
+    "answer_relevancy": 0.5722454956852429,
+    "answer_correctness": 0.7466068911375713
+  },
+  {
+    "question": "When is Biff Shannon's birthday?",
+    "answer_relevancy": 0.6929505768367425,
+    "answer_correctness": 0.7328406171402921
+  },
+  {
+    "question": "When Hardy was born?",
+    "answer_relevancy": 0.7074076376109748,
+    "answer_correctness": 0.7435413914895591
+  },
+  {
+    "question": "What is Dr. Emmett Green castle?",
+    "answer_relevancy": 0.4884457470629462,
+    "answer_correctness": 0.5311792476336312
+  },
+  {
+    "question": "Do you know anything about Chill Valley?",
+    "answer_relevancy": 0.5805079603973463,
+    "answer_correctness": 0.5357421212877361
+  },
+  {
+    "question": "Who is George Drspy?",
+    "answer_relevancy": 0.48759788935283366,
+    "answer_correctness": 0.5882883837856507
+  },
+  {
+    "question": "Who is Jennifer?",
+    "answer_relevancy": 0.5724651492199844,
+    "answer_correctness": 0.6518829108628759
+  },
+  {
+    "question": "Do you know anything about root password?",
+    "answer_relevancy": 0.43441532594117216,
+    "answer_correctness": 0.9999999999999998
+  },
+  {
+    "question": "What is Locomotive 131?",
+    "answer_relevancy": 0.6207895465216249,
+    "answer_correctness": 0.842582392642185
+  }
+]
